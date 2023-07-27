@@ -1,0 +1,11 @@
+body{background-image: url(images/form\ \(6\).jpg);
+background-size: cover;background-attachment: fixed;}
+.container-fluid{width:70%;}
+.form{background: linear-gradient(rgba(255, 192, 203, 0.849),rgba(255, 0, 0, 0.751));display: block;justify-content: center;position:absolute;margin: 10px 10px 10px 10px;padding: 10px 30px 20px;}
+label{color:#ffffff;font-size:30px;text-align: left;display: inline-block;padding:10px;}
+.col-md-6 .position-relative{padding: 10px;margin-left: 20px;}
+input{border-radius: 10px;padding:10px;}
+#title{font-size:45px;color:#ffffff;text-transform: uppercase;text-align: center;}
+.form{display: block; position:relative;width:auto;}
+.btn.btn-primary{height: 50px; width:auto;display: inline;position:relative;left: 45%;background: linear-gradient(rgb(244, 11, 104),rgb(238, 89, 114));border:6px solid #000000;border-radius: 20px;}
+a{color:#ffffff;}

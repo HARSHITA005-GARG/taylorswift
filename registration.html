@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Registration-form</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="formstyles.css" type="text/css">
+</head>
+<body>
+<header>
+  
+    
+    <div class="container-fluid">
+      <div class="nav-item">
+        <h1 id="title">Registration-Form</h1>
+      </div>
+    </div>
+      <div class="form">
+     
+     
+  
+    <form class="row g-3 needs-validation" validate>
+      <div class="col-md-4 position-relative">
+        <label for="validationTooltip01" class="form-label">First name</label>
+        <input type="text" class="form-control" id="validationTooltip01" placeholder="Mark" required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4 position-relative">
+        <label for="validationTooltip02" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="validationTooltip02" placeholder="Otto" required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4 position-relative">
+        <label for="validationTooltipUsername" class="form-label">Username</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+          <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+          <div class="invalid-tooltip">
+            Please choose a unique and valid username.
+          </div>
+        </div>
+      </div>
+        <form class="row g-3 needs-validation" validate>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip02" class="form-label">Email</label>
+          <input type="email" class="form-control" id="validationTooltip02" placeholder="abc@example.com" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip02" class="form-label">Date of Birth</label>
+          <input type="date" class="form-control" id="validationTooltip02" placeholder="Otto" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip02" class="form-label">Favorite album</label>
+          <select class="form-select" id="validationTooltip04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>Taylor Swift-2006</option>
+            <option>Fearless - 2008</option>
+            <option>Speak Now - 2010</option>
+            <option>Red - 2012</option>
+            <option>1989 - 2014</option>
+            <option>Reputation - 2017</option>
+            <option>Lover - 2019</option>
+            <option>Folklore - 2020</option>
+            <option>Evermore - 2020</option>
+            <option>Midnights - 2022</option>
+          </select>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+      
+      <div class="col-md-6 position-relative">
+        <label for="validationTooltip03" class="form-label">City</label>
+        <input type="text" class="form-control" id="validationTooltip03" required>
+        <div class="invalid-tooltip">
+          Please provide a valid city.
+        </div>
+      </div>
+      <div class="col-md-3 position-relative">
+        <label for="validationTooltip04" class="form-label">Continent</label>
+        <select class="form-select" id="validationTooltip04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>Asia</option>
+          <option>Africa</option>
+          <option>North America</option>
+          <option>South America</option>
+          <option>Europe</option>
+          <option>Antarctica</option>
+        </select>
+        <div class="invalid-tooltip">
+          Please select a valid state.
+        </div>
+      </div>
+      <div class="col-md-3 position-relative">
+        <label for="validationTooltip05" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="validationTooltip05" required>
+        <div class="invalid-tooltip">
+          Please provide a valid zip.
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="validationTextarea" class="form-label">Suggestions for us</label>
+        <textarea class="form-control" id="validationTextarea" placeholder="Place your suggestions....." cols="30" rows="4" required></textarea>
+        <div class="invalid-feedback">
+          Please enter a message in the textarea.
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </div>
+      <div class="col-12 login">
+        <h2>Already have an account?<a href="signup.html" >Click here</a></h2>
+      </div>
+    </form>
+  </div>
+    
+</header>
+</body>
+</html>
